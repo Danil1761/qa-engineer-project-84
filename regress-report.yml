@@ -49,7 +49,7 @@ bugreports:
       Не работает крестик в окне после оформления заказа
     environment: |
       Yandex Browser 24.7.6.974 (64-bit)
-    Windows 10 22H2
+      Windows 10 22H2
     steps-to-reproduce: |
       - Добавил товар в корзину
       - Открыл корзину
