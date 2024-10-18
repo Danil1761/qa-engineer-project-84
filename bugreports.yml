@@ -56,67 +56,67 @@
 
 - summary: |
     Не работает крестик в окне после оформления заказа
-environment: |
+  environment: |
     Yandex Browser 24.7.6.974 (64-bit)
     Windows 10 22H2
-steps-to-reproduce: |
+  steps-to-reproduce: |
     - Добавить товар в корзину
     - Открываем корзину
     - Оформляем заказ
     - В окне оформления заказа нажимаем на крестик в правом верхнем углу
-expected-result: |
+  expected-result: |
     Окно закрылось 
-actual-result: |
+  actual-result: |
     Окно не закрылось
 
 - summary: |
     Нет возвращения на начальную страницу через название магазина в шапке сайта 
-environment: |
+  environment: |
     Yandex Browser 24.7.6.974 (64-bit)
     Windows 10 22H2
-steps-to-reproduce: |
+  steps-to-reproduce: |
     - Открываем корзину
     - Нажимаем на название магазина
-expected-result: |
+  expected-result: |
     Возврат на начальную страницу сайта
-actual-result: |
+  actual-result: |
     Ничего не происходит
 
 - summary: |
     Черные рамки в изображениях некоторых товаров 
-environment: |
+  environment: |
     Yandex Browser 24.7.6.974 (64-bit)
     Windows 10 22H2
-steps-to-reproduce: |
+  steps-to-reproduce: |
     - Листаем вниз начальную страницу сайта
-expected-result: |
+  expected-result: |
     Все изображения товаров имеют правильное разрешение без черных полос по краям
-actual-result: |
+  actual-result: |
     На некоторых изображениях присутствуют черные полосы побокам
 
 - summary: |
     Нет флага напротив строки выбора английского языка 
-environment: |
+  environment: |
     Yandex Browser 24.7.6.974 (64-bit)
     Windows 10 22H2
-steps-to-reproduce: |
+  steps-to-reproduce: |
     - нажимаем на смену языка
-expected-result: |
+  expected-result: |
     Возле выбора английского есть флаг англии
-actual-result: |
+  actual-result: |
     Флага нет
 
 - summary: |
     Некорректное отображение количества товаров в корзине 
-environment: |
+  environment: |
     Yandex Browser 24.7.6.974 (64-bit)
     Windows 10 22H2
-steps-to-reproduce: |
+  steps-to-reproduce: |
     - Добавляем несколько товаров в корзину
     - Открываем корзину
-expected-result: |
+  expected-result: |
     Количество добавленных товаров отображается ровно друг под другом
-actual-result: |
+  actual-result: |
     Отображение количества товаров сдвинулось
 
 
